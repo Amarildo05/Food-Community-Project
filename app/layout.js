@@ -1,7 +1,8 @@
+import MainHeader from "@/components/main-header";
 import "./globals.css";
 
 export const metadata = {
-  title: "Best Foodie",
+  title: "Best Foodie Meals",
   description: "Delicious meals, shared by a food-loving community.",
 };
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           </svg>
         </div>
 
+        <MainHeader />
         {children}
       </body>
     </html>
