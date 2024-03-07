@@ -14,7 +14,7 @@ export default function MainHeader() {
           width={500}
           height={500}
         />
-        Best Foodie Meals
+        Best Quality Food
       </Link>
       <nav className={classes.nav}>
         <ul>
